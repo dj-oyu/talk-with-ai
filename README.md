@@ -20,6 +20,13 @@ AIとともに日常を楽しむための、親しい部下のようなAIキャ�
 - [**DEVELOPMENT_ROADMAP.md**](./DEVELOPMENT_ROADMAP.md) - 開発ロードマップ・7ヶ月計画
 - [**DEVELOPMENT_GUIDELINES.md**](./DEVELOPMENT_GUIDELINES.md) - チーム協働・ブランチ戦略・品質ガードレール
 
+### 📁 プロジェクト構成
+```
+frontend/       Next.js アプリケーション
+backend/        AWS Lambda 関数群
+infrastructure/ AWS CDK スタック
+```
+
 ## 🏗️ アーキテクチャ概要
 
 ```
